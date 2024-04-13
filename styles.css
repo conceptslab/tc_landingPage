@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.lcon, 
+.mcon,
+.fcon {
+    border: 1px solid black;
+    Padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    margin-top: 15px;
+    
+}
+
+.lcon {
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+    height: 48px;
+}
+
+.mcon {
+    border: 1px solid black;
+    width: 60%;
+    margin: auto;
+    margin-top: 15px;
+    height: 445px;
+}
+
+.fcon {
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    border: 1px solid black; 
+}
+
+
+.intro,
+.activity,
+.scanner,
+.pnl,
+.result {
+    border: 1px solid black;
+}
